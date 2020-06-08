@@ -14,7 +14,7 @@ PermissionX.request(this,Manifest.permission.CALL_PHONE
                 ,Manifest.permission.WRITE_EXTERNAL_STORAGE)
         {success,deniedList->
             if (success){
-                Toast.makeText(this,"权限都得了",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"权限都获得了",Toast.LENGTH_SHORT).show()
             }else{
                 Toast.makeText(this,"权限未全获得：$deniedList",Toast.LENGTH_SHORT).show()
             }
